@@ -1,0 +1,29 @@
+.headBar{
+    display: flex;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+}
+.edit{
+    margin-bottom: 10px;
+}
+.textContainer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+   justify-content:center;
+    height: 907px;
+    background-color: #c0c0cb;
+}
+.inside{
+    height: 95%;
+    width: 593px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.editCont{
+    display: flex;
+    justify-content: center;
+}
