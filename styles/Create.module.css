@@ -17,13 +17,14 @@
 }
 .inside{
     height: 95%;
-    width: 593px;
+    width: 800px;
     background-color: whitesmoke;
     font-size: 20px;
     margin-top: 20px;
     padding: 20px;
 }
 .editCont{
+    position: sticky;
     display: flex;
     justify-content: center;
 }

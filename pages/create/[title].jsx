@@ -25,8 +25,8 @@ const Post = () => {
                     </div>
                     <div className={styles.editCont}>
                         <Button text="B" cname='But bold' onClick={e => style("bold")}/>
-                        <Button text="I" cname='But italic'/>
-                        <Button text="U" cname='But underline'/>
+                        <Button text="I" cname='But italic' onClick={e=> style("italic")}/>
+                        <Button text="U" cname='But underline' onClick={e=> style("underline")}/>
 
                     </div>
                     
